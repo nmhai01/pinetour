@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  background-color: #f4f4f4;
+  width: 1440px;
+  margin: auto;
+  font-family: "Montserrat";
+}
+.name {
+  height: 58px;
+  background-color: #101010;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name_photo {
+  width: 50px;
+  height: 42px;
+}
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 80px;
+  font-size: 80px;
+  color: #303030;
+  font-weight: 800;
+  font-style: normal;
+}
+.main {
+  display: flex;
+  gap: 66px;
+  justify-content: center;
+  padding-top: 40px;
+}
+.button {
+  width: 400px;
+  height: 85px;
+  border: solid 1px;
+  border-radius: 10px;
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+  transition: 1s ease;
+}
+.button:hover {
+  color: #d9d9d9;
+  background-color: rgb(15, 178, 189);
+}
+.button3:hover,
+:focus {
+  background-color: #078992;
+  border: 1px solid #04c9e3;
+  text-shadow: 0 0 5px #0a0a0a;
+  box-shadow: 0 0 5px #00e1ff;
+}
+.button2:hover,
+:focus {
+  background-color: #a60eae;
+  border: 1px solid #d02ed6;
+  text-shadow: 0 0 5px #0a0a0a;
+  box-shadow: 0 0 5px #00e1ff;
+}
+.button4:hover,
+:focus {
+  background-color: #2a15c5;
+  border: 1px solid #040ab2;
+  text-shadow: 0 0 5px #0a0a0a;
+  box-shadow: 0 0 5px #00e1ff;
+}
+.button5:hover,
+:focus {
+  background-color: #d31b65;
+  border: 1px solid #8d0a36;
+  text-shadow: 0 0 5px #0a0a0a;
+  box-shadow: 0 0 5px #00e1ff;
+}
+.tour {
+  color: #1ac74a;
+  font-size: 32px;
+  padding-bottom: 10px;
+  margin-top: 26px;
+  width: 122px;
+  height: 32px;
+}
+.aside_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 104px;
+}
+.aside {
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  gap: 200px;
+}
+.agency {
+  font-size: 48px;
+}
+.day {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.city {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 20px;
+}
+.city2 {
+  color: #777;
+  padding-top: 10px;
+  font-size: 12px;
+}
+#day2 {
+  position: absolute;
+  width: 598px;
+  height: 894px;
+}
+.button2:hover #day2 {
+  display: block;
+}
+#day2 {
+  display: none;
+  top: 0;
+  right: 0;
+  width: 598px;
+  height: 894px;
+}
+.button3:hover #day2 {
+  display: block;
+}
+.button4:hover #day2 {
+  display: block;
+}
+.button5:hover #day2 {
+  display: block;
+}
+
+.tour1 {
+  width: 138px;
+  height: 32px;
+}
+.block {
+  width: 308px;
+  height: 370px;
+  border: solid 0px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 3px 3px 3px color #0cf063;
+}
+.block:hover {
+  border: 1px solid #0cf063;
+}
+.block1 {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 128px;
+}
+
+.pack {
+  font-size: 32px;
+  padding-bottom: 40px;
+}
+.li {
+  padding-bottom: 13px;
+  font-size: 20px;
+  color: #777;
+}
+.price {
+  font-size: 32px;
+  color: #303030;
+}
+.price1 {
+  padding-top: 70px;
+}
+.price2 {
+  padding-top: 30px;
+}
+.qua {
+  height: 183px;
+  background-color: #171717;
+  color: #fff;
+  font-size: 32px;
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #1ac74a;
+}
+.order {
+  width: 130px;
+  height: 44px;
+  background-color: #18ba51;
+  border-radius: 4px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quaa {
+  padding-bottom: 20px;
+  font-size: 32px;
+}
+.last_footer {
+  height: 228px;
+  background-color: #101010;
+  display: flex;
+  align-items: center;
+  padding: 80px 120px;
+  justify-content: space-between;
+}
+.tour1 {
+  color: #1ac74a;
+  width: 138px;
+  height: 32px;
+  font-size: 32px;
+}
+.agency_1 {
+  width: 299px;
+  height: 118px;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  gap: 10px;
+}
+.footer_right {
+  margin-right: 20px;
+}
+.zurag {
+  width: 598px;
+  height: 894px;
+}
+@media screen and (max-width: 375px) {
+  .header {
+    width: 100vw;
+  }
+}
